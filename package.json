@@ -12,7 +12,7 @@
   "homepage": "https://animate.style/",
   "license": "MIT",
   "animateConfig": {
-    "prefix": "animate__"
+    "prefix": "gf__"
   },
   "scripts": {
     "start": "npm-run-all raw prod compat",
