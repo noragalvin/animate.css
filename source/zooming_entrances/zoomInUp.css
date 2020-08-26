@@ -1,4 +1,4 @@
-@keyframes zoomInUp {
+@keyframes gf_zoomInUp {
   from {
     opacity: 0;
     transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
@@ -13,5 +13,5 @@
 }
 
 .zoomInUp {
-  animation-name: zoomInUp;
+  animation-name: gf_zoomInUp;
 }

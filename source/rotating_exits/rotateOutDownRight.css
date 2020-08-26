@@ -1,4 +1,4 @@
-@keyframes rotateOutDownRight {
+@keyframes gf_rotateOutDownRight {
   from {
     opacity: 1;
   }
@@ -10,6 +10,6 @@
 }
 
 .rotateOutDownRight {
-  animation-name: rotateOutDownRight;
+  animation-name: gf_rotateOutDownRight;
   transform-origin: right bottom;
 }

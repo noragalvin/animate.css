@@ -1,4 +1,4 @@
-@keyframes backInDown {
+@keyframes gf_backInDown {
   0% {
     transform: translateY(-1200px) scale(0.7);
     opacity: 0.7;
@@ -16,5 +16,5 @@
 }
 
 .backInDown {
-  animation-name: backInDown;
+  animation-name: gf_backInDown;
 }

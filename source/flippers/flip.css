@@ -1,4 +1,4 @@
-@keyframes flip {
+@keyframes gf_flip {
   from {
     transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
     animation-timing-function: ease-out;
@@ -30,5 +30,5 @@
 
 .animated.flip {
   backface-visibility: visible;
-  animation-name: flip;
+  animation-name: gf_flip;
 }

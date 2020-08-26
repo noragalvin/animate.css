@@ -1,4 +1,4 @@
-@keyframes rotateOut {
+@keyframes gf_rotateOut {
   from {
     opacity: 1;
   }
@@ -10,6 +10,6 @@
 }
 
 .rotateOut {
-  animation-name: rotateOut;
+  animation-name: gf_rotateOut;
   transform-origin: center;
 }

@@ -1,4 +1,4 @@
-@keyframes fadeInLeft {
+@keyframes gf_fadeInLeft {
   from {
     opacity: 0;
     transform: translate3d(-100%, 0, 0);
@@ -11,5 +11,5 @@
 }
 
 .fadeInLeft {
-  animation-name: fadeInLeft;
+  animation-name: gf_fadeInLeft;
 }

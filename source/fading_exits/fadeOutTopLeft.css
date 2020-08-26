@@ -1,4 +1,4 @@
-@keyframes fadeOutTopLeft {
+@keyframes gf_fadeOutTopLeft {
   from {
     opacity: 1;
     transform: translate3d(0, 0, 0);
@@ -10,5 +10,5 @@
 }
 
 .fadeOutTopLeft {
-  animation-name: fadeOutTopLeft;
+  animation-name: gf_fadeOutTopLeft;
 }

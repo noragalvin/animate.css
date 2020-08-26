@@ -1,4 +1,4 @@
-@keyframes fadeInRightBig {
+@keyframes gf_fadeInRightBig {
   from {
     opacity: 0;
     transform: translate3d(2000px, 0, 0);
@@ -11,5 +11,5 @@
 }
 
 .fadeInRightBig {
-  animation-name: fadeInRightBig;
+  animation-name: gf_fadeInRightBig;
 }

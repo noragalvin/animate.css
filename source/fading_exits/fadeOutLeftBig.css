@@ -1,4 +1,4 @@
-@keyframes fadeOutLeftBig {
+@keyframes gf_fadeOutLeftBig {
   from {
     opacity: 1;
   }
@@ -10,5 +10,5 @@
 }
 
 .fadeOutLeftBig {
-  animation-name: fadeOutLeftBig;
+  animation-name: gf_fadeOutLeftBig;
 }

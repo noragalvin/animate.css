@@ -1,4 +1,4 @@
-@keyframes backOutRight {
+@keyframes gf_backOutRight {
   0% {
     transform: scale(1);
     opacity: 1;
@@ -16,5 +16,5 @@
 }
 
 .backOutRight {
-  animation-name: backOutRight;
+  animation-name: gf_backOutRight;
 }

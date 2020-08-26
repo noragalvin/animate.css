@@ -1,4 +1,4 @@
-@keyframes shakeY {
+@keyframes gf_shakeY {
   from,
   to {
     transform: translate3d(0, 0, 0);
@@ -21,5 +21,5 @@
 }
 
 .shakeY {
-  animation-name: shakeY;
+  animation-name: gf_shakeY;
 }

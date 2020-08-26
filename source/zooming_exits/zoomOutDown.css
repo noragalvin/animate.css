@@ -1,4 +1,4 @@
-@keyframes zoomOutDown {
+@keyframes gf_zoomOutDown {
   40% {
     opacity: 1;
     transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
@@ -13,6 +13,6 @@
 }
 
 .zoomOutDown {
-  animation-name: zoomOutDown;
+  animation-name: gf_zoomOutDown;
   transform-origin: center bottom;
 }

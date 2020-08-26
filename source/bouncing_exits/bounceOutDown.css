@@ -1,4 +1,4 @@
-@keyframes bounceOutDown {
+@keyframes gf_bounceOutDown {
   20% {
     transform: translate3d(0, 10px, 0) scaleY(0.985);
   }
@@ -16,5 +16,5 @@
 }
 
 .bounceOutDown {
-  animation-name: bounceOutDown;
+  animation-name: gf_bounceOutDown;
 }

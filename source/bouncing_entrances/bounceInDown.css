@@ -1,4 +1,4 @@
-@keyframes bounceInDown {
+@keyframes gf_bounceInDown {
   from,
   60%,
   75%,
@@ -31,5 +31,5 @@
 }
 
 .bounceInDown {
-  animation-name: bounceInDown;
+  animation-name: gf_bounceInDown;
 }

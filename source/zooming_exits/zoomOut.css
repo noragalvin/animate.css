@@ -1,4 +1,4 @@
-@keyframes zoomOut {
+@keyframes gf_zoomOut {
   from {
     opacity: 1;
   }
@@ -14,5 +14,5 @@
 }
 
 .zoomOut {
-  animation-name: zoomOut;
+  animation-name: gf_zoomOut;
 }

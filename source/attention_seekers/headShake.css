@@ -1,4 +1,4 @@
-@keyframes headShake {
+@keyframes gf_headShake {
   0% {
     transform: translateX(0);
   }
@@ -26,5 +26,5 @@
 
 .headShake {
   animation-timing-function: ease-in-out;
-  animation-name: headShake;
+  animation-name: gf_headShake;
 }

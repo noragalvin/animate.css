@@ -1,4 +1,4 @@
-@keyframes fadeInBottomLeft {
+@keyframes gf_fadeInBottomLeft {
   from {
     opacity: 0;
     transform: translate3d(-100%, 100%, 0);
@@ -10,5 +10,5 @@
 }
 
 .fadeInBottomLeft {
-  animation-name: fadeInBottomLeft;
+  animation-name: gf_fadeInBottomLeft;
 }

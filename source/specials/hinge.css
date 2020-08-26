@@ -1,4 +1,4 @@
-@keyframes hinge {
+@keyframes gf_hinge {
   0% {
     animation-timing-function: ease-in-out;
   }
@@ -24,6 +24,6 @@
 
 .hinge {
   animation-duration: calc(var(--animate-duration) * 2);
-  animation-name: hinge;
+  animation-name: gf_hinge;
   transform-origin: top left;
 }

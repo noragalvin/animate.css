@@ -1,4 +1,4 @@
-@keyframes slideOutUp {
+@keyframes gf_slideOutUp {
   from {
     transform: translate3d(0, 0, 0);
   }
@@ -10,5 +10,5 @@
 }
 
 .slideOutUp {
-  animation-name: slideOutUp;
+  animation-name: gf_slideOutUp;
 }

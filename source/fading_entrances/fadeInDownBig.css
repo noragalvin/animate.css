@@ -1,4 +1,4 @@
-@keyframes fadeInDownBig {
+@keyframes gf_fadeInDownBig {
   from {
     opacity: 0;
     transform: translate3d(0, -2000px, 0);
@@ -11,5 +11,5 @@
 }
 
 .fadeInDownBig {
-  animation-name: fadeInDownBig;
+  animation-name: gf_fadeInDownBig;
 }

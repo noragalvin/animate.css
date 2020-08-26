@@ -1,4 +1,4 @@
-@keyframes tada {
+@keyframes gf_tada {
   from {
     transform: scale3d(1, 1, 1);
   }
@@ -27,5 +27,5 @@
 }
 
 .tada {
-  animation-name: tada;
+  animation-name: gf_tada;
 }

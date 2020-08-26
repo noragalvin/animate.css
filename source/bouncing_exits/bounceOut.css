@@ -1,4 +1,4 @@
-@keyframes bounceOut {
+@keyframes gf_bounceOut {
   20% {
     transform: scale3d(0.9, 0.9, 0.9);
   }
@@ -17,5 +17,5 @@
 
 .bounceOut {
   animation-duration: calc(var(--animate-duration) * 0.75);
-  animation-name: bounceOut;
+  animation-name: gf_bounceOut;
 }

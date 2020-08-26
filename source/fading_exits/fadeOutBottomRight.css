@@ -1,4 +1,4 @@
-@keyframes fadeOutBottomRight {
+@keyframes gf_fadeOutBottomRight {
   from {
     opacity: 1;
     transform: translate3d(0, 0, 0);
@@ -10,5 +10,5 @@
 }
 
 .fadeOutBottomRight {
-  animation-name: fadeOutBottomRight;
+  animation-name: gf_fadeOutBottomRight;
 }

@@ -1,4 +1,4 @@
-@keyframes rotateInUpLeft {
+@keyframes gf_rotateInUpLeft {
   from {
     transform: rotate3d(0, 0, 1, 45deg);
     opacity: 0;
@@ -11,6 +11,6 @@
 }
 
 .rotateInUpLeft {
-  animation-name: rotateInUpLeft;
+  animation-name: gf_rotateInUpLeft;
   transform-origin: left bottom;
 }

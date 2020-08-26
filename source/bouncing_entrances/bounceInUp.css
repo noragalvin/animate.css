@@ -1,4 +1,4 @@
-@keyframes bounceInUp {
+@keyframes gf_bounceInUp {
   from,
   60%,
   75%,
@@ -31,5 +31,5 @@
 }
 
 .bounceInUp {
-  animation-name: bounceInUp;
+  animation-name: gf_bounceInUp;
 }

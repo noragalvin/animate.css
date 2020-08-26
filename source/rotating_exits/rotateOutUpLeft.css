@@ -1,4 +1,4 @@
-@keyframes rotateOutUpLeft {
+@keyframes gf_rotateOutUpLeft {
   from {
     opacity: 1;
   }
@@ -10,6 +10,6 @@
 }
 
 .rotateOutUpLeft {
-  animation-name: rotateOutUpLeft;
+  animation-name: gf_rotateOutUpLeft;
   transform-origin: left bottom;
 }

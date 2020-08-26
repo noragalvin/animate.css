@@ -111,7 +111,7 @@
   }
 }
 /* Attention seekers  */
-@-webkit-keyframes bounce {
+@-webkit-keyframes gf_bounce {
   from,
   20%,
   53%,
@@ -149,7 +149,7 @@
     transform: translate3d(0, -4px, 0) scaleY(1.02);
   }
 }
-@keyframes bounce {
+@keyframes gf_bounce {
   from,
   20%,
   53%,
@@ -188,8 +188,8 @@
   }
 }
 .gf__bounce {
-  -webkit-animation-name: bounce;
-  animation-name: bounce;
+  -webkit-animation-name: gf_bounce;
+  animation-name: gf_bounce;
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
 }

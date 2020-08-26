@@ -1,4 +1,4 @@
-@keyframes bounceOutLeft {
+@keyframes gf_bounceOutLeft {
   20% {
     opacity: 1;
     transform: translate3d(20px, 0, 0) scaleX(0.9);
@@ -11,5 +11,5 @@
 }
 
 .bounceOutLeft {
-  animation-name: bounceOutLeft;
+  animation-name: gf_bounceOutLeft;
 }

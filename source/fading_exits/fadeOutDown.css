@@ -1,4 +1,4 @@
-@keyframes fadeOutDown {
+@keyframes gf_fadeOutDown {
   from {
     opacity: 1;
   }
@@ -10,5 +10,5 @@
 }
 
 .fadeOutDown {
-  animation-name: fadeOutDown;
+  animation-name: gf_fadeOutDown;
 }

@@ -1,4 +1,4 @@
-@keyframes jackInTheBox {
+@keyframes gf_jackInTheBox {
   from {
     opacity: 0;
     transform: scale(0.1) rotate(30deg);
@@ -20,5 +20,5 @@
 }
 
 .jackInTheBox {
-  animation-name: jackInTheBox;
+  animation-name: gf_jackInTheBox;
 }

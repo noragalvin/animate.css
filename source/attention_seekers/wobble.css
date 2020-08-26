@@ -1,6 +1,6 @@
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes wobble {
+@keyframes gf_wobble {
   from {
     transform: translate3d(0, 0, 0);
   }
@@ -31,5 +31,5 @@
 }
 
 .wobble {
-  animation-name: wobble;
+  animation-name: gf_wobble;
 }

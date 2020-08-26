@@ -1,4 +1,4 @@
-@keyframes slideInRight {
+@keyframes gf_slideInRight {
   from {
     transform: translate3d(100%, 0, 0);
     visibility: visible;
@@ -10,5 +10,5 @@
 }
 
 .slideInRight {
-  animation-name: slideInRight;
+  animation-name: gf_slideInRight;
 }

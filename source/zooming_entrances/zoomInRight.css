@@ -1,4 +1,4 @@
-@keyframes zoomInRight {
+@keyframes gf_zoomInRight {
   from {
     opacity: 0;
     transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
@@ -13,5 +13,5 @@
 }
 
 .zoomInRight {
-  animation-name: zoomInRight;
+  animation-name: gf_zoomInRight;
 }

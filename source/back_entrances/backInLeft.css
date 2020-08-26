@@ -1,4 +1,4 @@
-@keyframes backInLeft {
+@keyframes gf_backInLeft {
   0% {
     transform: translateX(-2000px) scale(0.7);
     opacity: 0.7;
@@ -16,5 +16,5 @@
 }
 
 .backInLeft {
-  animation-name: backInLeft;
+  animation-name: gf_backInLeft;
 }

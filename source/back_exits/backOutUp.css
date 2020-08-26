@@ -1,4 +1,4 @@
-@keyframes backOutUp {
+@keyframes gf_backOutUp {
   0% {
     transform: scale(1);
     opacity: 1;
@@ -16,5 +16,5 @@
 }
 
 .backOutUp {
-  animation-name: backOutUp;
+  animation-name: gf_backOutUp;
 }

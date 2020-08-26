@@ -1,4 +1,4 @@
-@keyframes fadeOutUpBig {
+@keyframes gf_fadeOutUpBig {
   from {
     opacity: 1;
   }
@@ -10,5 +10,5 @@
 }
 
 .fadeOutUpBig {
-  animation-name: fadeOutUpBig;
+  animation-name: gf_fadeOutUpBig;
 }

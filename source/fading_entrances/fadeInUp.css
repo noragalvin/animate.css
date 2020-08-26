@@ -1,4 +1,4 @@
-@keyframes fadeInUp {
+@keyframes gf_fadeInUp {
   from {
     opacity: 0;
     transform: translate3d(0, 100%, 0);
@@ -11,5 +11,5 @@
 }
 
 .fadeInUp {
-  animation-name: fadeInUp;
+  animation-name: gf_fadeInUp;
 }

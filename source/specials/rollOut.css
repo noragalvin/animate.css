@@ -1,6 +1,6 @@
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes rollOut {
+@keyframes gf_rollOut {
   from {
     opacity: 1;
   }
@@ -12,5 +12,5 @@
 }
 
 .rollOut {
-  animation-name: rollOut;
+  animation-name: gf_rollOut;
 }

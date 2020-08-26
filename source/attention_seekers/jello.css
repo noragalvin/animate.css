@@ -1,4 +1,4 @@
-@keyframes jello {
+@keyframes gf_jello {
   from,
   11.1%,
   to {
@@ -35,6 +35,6 @@
 }
 
 .jello {
-  animation-name: jello;
+  animation-name: gf_jello;
   transform-origin: center;
 }
