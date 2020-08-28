@@ -111,7 +111,7 @@
   }
 }
 /* Attention seekers  */
-@-webkit-keyframes gf__bounce {
+@-webkit-keyframes gf_bounce {
   from,
   20%,
   53%,
@@ -149,7 +149,7 @@
     transform: translate3d(0, -4px, 0) scaleY(1.02);
   }
 }
-@keyframes gf__bounce {
+@keyframes gf_bounce {
   from,
   20%,
   53%,
