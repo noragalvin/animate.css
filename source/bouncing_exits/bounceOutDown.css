@@ -14,7 +14,3 @@
     transform: translate3d(0, 2000px, 0) scaleY(3);
   }
 }
-
-.bounceOutDown {
-  animation-name: gf_bounceOutDown;
-}
