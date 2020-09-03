@@ -33,3 +33,8 @@
     transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
   }
 }
+
+.jello {
+  animation-name: gf_jello;
+  transform-origin: center;
+}

@@ -9,3 +9,7 @@
     transform: translate3d(-2000px, 0, 0) scaleX(2);
   }
 }
+
+.bounceOutLeft {
+  animation-name: gf_bounceOutLeft;
+}

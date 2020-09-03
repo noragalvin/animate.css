@@ -8,3 +8,7 @@
     transform: translate3d(-100%, 0, 0);
   }
 }
+
+.fadeOutLeft {
+  animation-name: gf_fadeOutLeft;
+}

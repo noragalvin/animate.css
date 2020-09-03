@@ -7,3 +7,7 @@
     opacity: 0;
   }
 }
+
+.fadeOut {
+  animation-name: gf_fadeOut;
+}

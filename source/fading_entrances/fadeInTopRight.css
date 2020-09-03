@@ -8,3 +8,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
+
+.fadeInTopRight {
+  animation-name: gf_fadeInTopRight;
+}

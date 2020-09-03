@@ -13,3 +13,8 @@
     transform: scale3d(1, 1, 1);
   }
 }
+
+.pulse {
+  animation-name: gf_pulse;
+  animation-timing-function: ease-in-out;
+}

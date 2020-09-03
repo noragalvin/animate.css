@@ -19,3 +19,7 @@
     transform: translate3d(0, 10px, 0);
   }
 }
+
+.shakeY {
+  animation-name: gf_shakeY;
+}

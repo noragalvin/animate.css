@@ -8,3 +8,7 @@
     opacity: 1;
   }
 }
+
+.zoomIn {
+  animation-name: gf_zoomIn;
+}

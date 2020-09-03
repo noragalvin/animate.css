@@ -27,3 +27,8 @@
     animation-timing-function: ease-in;
   }
 }
+
+.animated.flip {
+  backface-visibility: visible;
+  animation-name: gf_flip;
+}

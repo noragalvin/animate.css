@@ -10,3 +10,7 @@
     opacity: 0;
   }
 }
+
+.flash {
+  animation-name: gf_flash;
+}

@@ -14,3 +14,7 @@
     opacity: 1;
   }
 }
+
+.backInLeft {
+  animation-name: gf_backInLeft;
+}
