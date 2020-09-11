@@ -1,5 +1,5 @@
 .animated {
-  animation-duration: var(--animate-duration);
+  animation-duration: var(--gf-animate-duration);
   animation-fill-mode: both;
 }
 
@@ -8,51 +8,51 @@
 }
 
 .animated.repeat-1 {
-  animation-iteration-count: var(--animate-repeat);
+  animation-iteration-count: var(--gf-animate-repeat);
 }
 
 .animated.repeat-2 {
-  animation-iteration-count: calc(var(--animate-repeat) * 2);
+  animation-iteration-count: calc(var(--gf-animate-repeat) * 2);
 }
 
 .animated.repeat-3 {
-  animation-iteration-count: calc(var(--animate-repeat) * 3);
+  animation-iteration-count: calc(var(--gf-animate-repeat) * 3);
 }
 
 .animated.delay-1s {
-  animation-delay: var(--animate-delay);
+  animation-delay: var(--gf-animate-delay);
 }
 
 .animated.delay-2s {
-  animation-delay: calc(var(--animate-delay) * 2);
+  animation-delay: calc(var(--gf-animate-delay) * 2);
 }
 
 .animated.delay-3s {
-  animation-delay: calc(var(--animate-delay) * 3);
+  animation-delay: calc(var(--gf-animate-delay) * 3);
 }
 
 .animated.delay-4s {
-  animation-delay: calc(var(--animate-delay) * 4);
+  animation-delay: calc(var(--gf-animate-delay) * 4);
 }
 
 .animated.delay-5s {
-  animation-delay: calc(var(--animate-delay) * 5);
+  animation-delay: calc(var(--gf-animate-delay) * 5);
 }
 
 .animated.faster {
-  animation-duration: calc(var(--animate-duration) / 2);
+  animation-duration: calc(var(--gf-animate-duration) / 2);
 }
 
 .animated.fast {
-  animation-duration: calc(var(--animate-duration) * 0.8);
+  animation-duration: calc(var(--gf-animate-duration) * 0.8);
 }
 
 .animated.slow {
-  animation-duration: calc(var(--animate-duration) * 2);
+  animation-duration: calc(var(--gf-animate-duration) * 2);
 }
 
 .animated.slower {
-  animation-duration: calc(var(--animate-duration) * 3);
+  animation-duration: calc(var(--gf-animate-duration) * 3);
 }
 
 @media print, (prefers-reduced-motion: reduce) {

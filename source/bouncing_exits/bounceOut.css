@@ -16,6 +16,6 @@
 }
 
 .bounceOut {
-  animation-duration: calc(var(--animate-duration) * 0.75);
+  animation-duration: calc(var(--gf-animate-duration) * 0.75);
   animation-name: gf_bounceOut;
 }

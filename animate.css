@@ -15,8 +15,8 @@
 .gf__animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-duration: var(--animate-duration);
-  animation-duration: var(--animate-duration);
+  -webkit-animation-duration: var(--gf-animate-duration);
+  animation-duration: var(--gf-animate-duration);
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -27,74 +27,74 @@
 .gf__animated.gf__repeat-1 {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  -webkit-animation-iteration-count: var(--animate-repeat);
-  animation-iteration-count: var(--animate-repeat);
+  -webkit-animation-iteration-count: var(--gf-animate-repeat);
+  animation-iteration-count: var(--gf-animate-repeat);
 }
 .gf__animated.gf__repeat-2 {
   -webkit-animation-iteration-count: calc(1 * 2);
   animation-iteration-count: calc(1 * 2);
-  -webkit-animation-iteration-count: calc(var(--animate-repeat) * 2);
-  animation-iteration-count: calc(var(--animate-repeat) * 2);
+  -webkit-animation-iteration-count: calc(var(--gf-animate-repeat) * 2);
+  animation-iteration-count: calc(var(--gf-animate-repeat) * 2);
 }
 .gf__animated.gf__repeat-3 {
   -webkit-animation-iteration-count: calc(1 * 3);
   animation-iteration-count: calc(1 * 3);
-  -webkit-animation-iteration-count: calc(var(--animate-repeat) * 3);
-  animation-iteration-count: calc(var(--animate-repeat) * 3);
+  -webkit-animation-iteration-count: calc(var(--gf-animate-repeat) * 3);
+  animation-iteration-count: calc(var(--gf-animate-repeat) * 3);
 }
 .gf__animated.gf__delay-1s {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
-  -webkit-animation-delay: var(--animate-delay);
-  animation-delay: var(--animate-delay);
+  -webkit-animation-delay: var(--gf-animate-delay);
+  animation-delay: var(--gf-animate-delay);
 }
 .gf__animated.gf__delay-2s {
   -webkit-animation-delay: calc(1s * 2);
   animation-delay: calc(1s * 2);
-  -webkit-animation-delay: calc(var(--animate-delay) * 2);
-  animation-delay: calc(var(--animate-delay) * 2);
+  -webkit-animation-delay: calc(var(--gf-animate-delay) * 2);
+  animation-delay: calc(var(--gf-animate-delay) * 2);
 }
 .gf__animated.gf__delay-3s {
   -webkit-animation-delay: calc(1s * 3);
   animation-delay: calc(1s * 3);
-  -webkit-animation-delay: calc(var(--animate-delay) * 3);
-  animation-delay: calc(var(--animate-delay) * 3);
+  -webkit-animation-delay: calc(var(--gf-animate-delay) * 3);
+  animation-delay: calc(var(--gf-animate-delay) * 3);
 }
 .gf__animated.gf__delay-4s {
   -webkit-animation-delay: calc(1s * 4);
   animation-delay: calc(1s * 4);
-  -webkit-animation-delay: calc(var(--animate-delay) * 4);
-  animation-delay: calc(var(--animate-delay) * 4);
+  -webkit-animation-delay: calc(var(--gf-animate-delay) * 4);
+  animation-delay: calc(var(--gf-animate-delay) * 4);
 }
 .gf__animated.gf__delay-5s {
   -webkit-animation-delay: calc(1s * 5);
   animation-delay: calc(1s * 5);
-  -webkit-animation-delay: calc(var(--animate-delay) * 5);
-  animation-delay: calc(var(--animate-delay) * 5);
+  -webkit-animation-delay: calc(var(--gf-animate-delay) * 5);
+  animation-delay: calc(var(--gf-animate-delay) * 5);
 }
 .gf__animated.gf__faster {
   -webkit-animation-duration: calc(1s / 2);
   animation-duration: calc(1s / 2);
-  -webkit-animation-duration: calc(var(--animate-duration) / 2);
-  animation-duration: calc(var(--animate-duration) / 2);
+  -webkit-animation-duration: calc(var(--gf-animate-duration) / 2);
+  animation-duration: calc(var(--gf-animate-duration) / 2);
 }
 .gf__animated.gf__fast {
   -webkit-animation-duration: calc(1s * 0.8);
   animation-duration: calc(1s * 0.8);
-  -webkit-animation-duration: calc(var(--animate-duration) * 0.8);
-  animation-duration: calc(var(--animate-duration) * 0.8);
+  -webkit-animation-duration: calc(var(--gf-animate-duration) * 0.8);
+  animation-duration: calc(var(--gf-animate-duration) * 0.8);
 }
 .gf__animated.gf__slow {
   -webkit-animation-duration: calc(1s * 2);
   animation-duration: calc(1s * 2);
-  -webkit-animation-duration: calc(var(--animate-duration) * 2);
-  animation-duration: calc(var(--animate-duration) * 2);
+  -webkit-animation-duration: calc(var(--gf-animate-duration) * 2);
+  animation-duration: calc(var(--gf-animate-duration) * 2);
 }
 .gf__animated.gf__slower {
   -webkit-animation-duration: calc(1s * 3);
   animation-duration: calc(1s * 3);
-  -webkit-animation-duration: calc(var(--animate-duration) * 3);
-  animation-duration: calc(var(--animate-duration) * 3);
+  -webkit-animation-duration: calc(var(--gf-animate-duration) * 3);
+  animation-duration: calc(var(--gf-animate-duration) * 3);
 }
 @media print, (prefers-reduced-motion: reduce) {
   .gf__animated {
@@ -647,8 +647,8 @@
   animation-name: gf_heartBeat;
   -webkit-animation-duration: calc(1s * 1.3);
   animation-duration: calc(1s * 1.3);
-  -webkit-animation-duration: calc(var(--animate-duration) * 1.3);
-  animation-duration: calc(var(--animate-duration) * 1.3);
+  -webkit-animation-duration: calc(var(--gf-animate-duration) * 1.3);
+  animation-duration: calc(var(--gf-animate-duration) * 1.3);
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
 }
@@ -1082,8 +1082,8 @@
 .gf__bounceIn {
   -webkit-animation-duration: calc(1s * 0.75);
   animation-duration: calc(1s * 0.75);
-  -webkit-animation-duration: calc(var(--animate-duration) * 0.75);
-  animation-duration: calc(var(--animate-duration) * 0.75);
+  -webkit-animation-duration: calc(var(--gf-animate-duration) * 0.75);
+  animation-duration: calc(var(--gf-animate-duration) * 0.75);
   -webkit-animation-name: gf_bounceIn;
   animation-name: gf_bounceIn;
 }
@@ -1441,8 +1441,8 @@
 .gf__bounceOut {
   -webkit-animation-duration: calc(1s * 0.75);
   animation-duration: calc(1s * 0.75);
-  -webkit-animation-duration: calc(var(--animate-duration) * 0.75);
-  animation-duration: calc(var(--animate-duration) * 0.75);
+  -webkit-animation-duration: calc(var(--gf-animate-duration) * 0.75);
+  animation-duration: calc(var(--gf-animate-duration) * 0.75);
   -webkit-animation-name: gf_bounceOut;
   animation-name: gf_bounceOut;
 }
@@ -2586,8 +2586,8 @@
 .gf__flipOutX {
   -webkit-animation-duration: calc(1s * 0.75);
   animation-duration: calc(1s * 0.75);
-  -webkit-animation-duration: calc(var(--animate-duration) * 0.75);
-  animation-duration: calc(var(--animate-duration) * 0.75);
+  -webkit-animation-duration: calc(var(--gf-animate-duration) * 0.75);
+  animation-duration: calc(var(--gf-animate-duration) * 0.75);
   -webkit-animation-name: gf_flipOutX;
   animation-name: gf_flipOutX;
   -webkit-backface-visibility: visible !important;
@@ -2632,8 +2632,8 @@
 .gf__flipOutY {
   -webkit-animation-duration: calc(1s * 0.75);
   animation-duration: calc(1s * 0.75);
-  -webkit-animation-duration: calc(var(--animate-duration) * 0.75);
-  animation-duration: calc(var(--animate-duration) * 0.75);
+  -webkit-animation-duration: calc(var(--gf-animate-duration) * 0.75);
+  animation-duration: calc(var(--gf-animate-duration) * 0.75);
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
   -webkit-animation-name: gf_flipOutY;

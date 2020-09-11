@@ -15,7 +15,7 @@
 }
 
 .flipOutX {
-  animation-duration: calc(var(--animate-duration) * 0.75);
+  animation-duration: calc(var(--gf-animate-duration) * 0.75);
   animation-name: gf_flipOutX;
   backface-visibility: visible !important;
 }
