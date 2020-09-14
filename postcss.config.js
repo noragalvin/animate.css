@@ -8,7 +8,10 @@ const header = `
  * animate.css - ${homepage}
  * Version - ${version}
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
+ * Forked: https://github.com/noragalvin/animate.css
+ * Author: Minh Nora
+ * Contact: minhnora98@gmail.com
+ * 
  * Copyright (c) ${new Date().getFullYear()} ${author.name}
  */
 
