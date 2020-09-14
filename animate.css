@@ -590,7 +590,7 @@
   -webkit-transform-origin: center;
   transform-origin: center;
 }
-@-webkit-keyframes gf_heartBeat {
+@-webkit-keyframes gf_heartbeat {
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -616,7 +616,7 @@
     transform: scale(1);
   }
 }
-@keyframes gf_heartBeat {
+@keyframes gf_heartbeat {
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -642,9 +642,9 @@
     transform: scale(1);
   }
 }
-.gf__heartBeat {
-  -webkit-animation-name: gf_heartBeat;
-  animation-name: gf_heartBeat;
+.gf__heartbeat {
+  -webkit-animation-name: gf_heartbeat;
+  animation-name: gf_heartbeat;
   -webkit-animation-duration: calc(1s * 1.3);
   animation-duration: calc(1s * 1.3);
   -webkit-animation-duration: calc(var(--gf-animate-duration) * 1.3);
