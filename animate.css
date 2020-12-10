@@ -1555,7 +1555,7 @@
   -webkit-animation-name: gf_bounceOutRight;
   animation-name: gf_bounceOutRight;
 }
-@-webkit-keyframes bounceOutUp {
+@-webkit-keyframes gf_bounceOutUp {
   20% {
     -webkit-transform: translate3d(0, -10px, 0) scaleY(0.985);
     transform: translate3d(0, -10px, 0) scaleY(0.985);
@@ -1574,7 +1574,7 @@
     transform: translate3d(0, -2000px, 0) scaleY(3);
   }
 }
-@keyframes bounceOutUp {
+@keyframes gf_bounceOutUp {
   20% {
     -webkit-transform: translate3d(0, -10px, 0) scaleY(0.985);
     transform: translate3d(0, -10px, 0) scaleY(0.985);
